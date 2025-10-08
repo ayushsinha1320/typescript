@@ -23,3 +23,7 @@ class Animal{
         this.age = age;
     }
 }
+
+const dog = new Animal("Dollar",5);
+console.log(dog.getName());
+console.log(dog.getAge());
